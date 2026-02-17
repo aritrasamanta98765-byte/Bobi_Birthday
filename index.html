@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Happy Birthday ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="lovePopup">I Love You Bobi ❤️</div>
+
+<body>
+
+    <div id="loginScreen">
+        <h2>Enter The Secret Code 💌</h2>
+        <input type="password" id="password" placeholder="Secret Code">
+        <button onclick="checkPassword()">Unlock ❤️</button>
+    </div>
+
+    <div id="mainContent" style="display:none;">
+
+        <audio id="bgMusic" loop>
+            <source src="song.mp3" type="audio/mp3">
+        </audio>
+
+        <h1>Happy Birthday My Love(puchku) 🎂💖</h1>
+        <h2 id="signature">From your Oggy 💖</h2>
+
+        <div class="gallery">
+            <img src="images/img1.jpeg">
+            <img src="images/img2.jpeg">
+            <img src="images/img3.jpeg">
+            <img src="images/img4.jpeg">
+        </div>
+
+
+        <p id="countdown"></p>
+        <h2 id="typing-text"></h2>
+
+        <button onclick="showSurprise()">Click For Surprise 🎁</button>
+
+        <div id="surpriseBox" style="display:none;">
+            <h2>💖 My Heart's Code 💖</h2>
+            <p id="typingText"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
